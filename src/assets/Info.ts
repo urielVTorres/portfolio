@@ -1,12 +1,12 @@
 
-export const topBarInfo : {language: string, buttons: string[]}[] = [
+export const topBarInfo : {language: string, buttons: {text:string, value:string}[]}[] = [
     {
         language: "Español",
-        buttons: ["Sobre Mí", "Habilidades", "Proyectos", "Contacto", "CV"]
+        buttons: [{text:"Sobre Mí",value:"about-me"}, {text:"Habilidades", value:"skills"}, {text:"Proyectos", value:"project"}, {text: "Contacto", value:"contact-me"}]
     },
     {
         language: "English",
-        buttons:["About Me", "Skills", "Projects", "Contact Me", "CV"]
+        buttons:[{text:"About Me",value:"about-me"}, {text:"Skills", value:"skills"}, {text:"Projects", value:"project"}, {text: "Contact Me", value:"contact-me"}]
     }
 
 ]
@@ -14,13 +14,13 @@ export const topBarInfo : {language: string, buttons: string[]}[] = [
 export const AboutMeInfo : {language: string, greeting: string, about: string}[] = [
     {
         language: "Español",
-        greeting: "Hola, me llamo Uriel Vargas. Un plcer conocerte.",
-        about: "Soy un ingeniero en sistemas computacionales con la capacidd y la ambición para cambiar el mundo."
+        greeting: "Hola, me llamo Uriel Vargas.",
+        about: "Ingeniero de software, trabajando en crear una mejor versión de mí mismo. Creo que la web es la plataforma del futuro. Amante de las ciencias y los lenguajes de programación. Hola mundo."
     },
     {
         language: "English",
-        greeting: "Hey! My name is Uriel Vargas. Nice to meet you!",
-        about: "I'm a computer systems engineer (in process) with the ambition and ability to change the world."
+        greeting: "Hey! My name is Uriel Vargas.",
+        about: "Software engineer, enhancing myself for a better tomorrow. I think web is the platform of the future. Lover of science and programming lnguages. Hello World."
     }
 ]
 
@@ -39,7 +39,7 @@ export const Skills : ISkill[] = [
         info: [
             {
                 title: "Diseñador Web",
-                description: "El diseño es el primer paso para crear cualquier página web, y es donde puedo dar rienda suelta a la imaginación."    
+                description: "El diseño es el primer paso para crear cualquier página web. Como Carl Sagan dijo alguna vez: La imaginación a menudo nos lleva a mundos que nunca existieron, pero sin ella no vamos a ninguna parte."    
             },
             {
                 title: "Resolución de problemas",
@@ -51,7 +51,7 @@ export const Skills : ISkill[] = [
             }
         ],
         tec: [
-            "JavaScript", "TypeScript", "HTML", "CSS", "SASS", "Node.js", "Tailwind", "MongoDB", "React.js", "Vue.js", "Express.js", "Next.js", "JWT", "MySQL", "Java", "C#", "C++", "C", "Python", "Git", "Github","Firebase"
+            "JavaScript", "TypeScript", "HTML", "CSS", "SASS", "Node.js", "Tailwind", "MongoDB", "React.js", "Vue.js", "Express.js", "Next.js", "JWT", "MySQL", "Java", "C#", "C/C++", "Python", "Git","Firebase"
         ]
     },
     {
@@ -71,7 +71,14 @@ export const Skills : ISkill[] = [
             }
         ],
         tec: [
-            "JavaScript", "TypeScript", "HTML", "CSS", "SASS", "Node.js", "Tailwind", "MongoDB", "React.js", "Vue.js", "Express.js", "Next.js", "JWT", "MySQL", "Java", "C#", "C++", "C", "Python", "Git", "Github","Firebase"
+            "JavaScript", "TypeScript", "HTML", "CSS", "SASS", "Node.js", "Tailwind", "MongoDB", "React.js", "Vue.js", "Express.js", "Next.js", "JWT", "MySQL", "Java", "C#", "C/C++", "Python", "Git","Firebase"
         ]
     }
 ]
+
+export const ContactInfo : {linkedIn: string, phoneNumber: string, email: string} =  {
+    linkedIn: "Marco Uriel Vargas Torres",
+    phoneNumber: "5579873603",
+    email: "m.urielv.torres@gmail.com"
+}
+

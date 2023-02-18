@@ -11,18 +11,16 @@
 </script>
 
 <template>
-    <div>
+    <div id="skills">
         <div id="certification">
             <div class="ability" v-for="ability in skills?.info">
-                <h2>{{ ability.title }}</h2>
+                <h3>{{ ability.title }}</h3>
                 <p>{{ ability.description }}</p>
             </div>
         </div>
         <h2>{{ language === "Español" ? "Tecnologías que conozco" : "Technologies I know" }}</h2>
-        <div>
-            <ul>
-                <li v-for="tec in skills?.tec">{{ tec }}</li>
-            </ul>
+        <div id="technologies">
+            <h3 v-for="tec in skills?.tec">{{ tec }}</h3>
         </div>
     </div>
 </template>
@@ -34,6 +32,13 @@
     justify-content: center;
     grid-template-columns: repeat(3, 30%) ;
     gap: 3%;
+}
+
+#technologies {
+    display:grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+
 }
 
 </style>

@@ -12,7 +12,7 @@
 
 
 <template>
-    <div>
+    <div id="about-me">
         <h1>{{ aboutMe?.greeting }}</h1>
         <p>{{ aboutMe?.about }}</p>
     </div>
@@ -20,4 +20,7 @@
 
 
 <style scoped>
+div {
+    margin: 5rem 10rem;
+}
 </style>
