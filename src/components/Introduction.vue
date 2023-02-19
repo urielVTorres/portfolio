@@ -20,7 +20,8 @@
 
 
 <style scoped>
-div {
-    margin: 5rem 10rem;
+#about-me {
+    margin: 0 10rem;
+    padding-top: 15rem;
 }
 </style>

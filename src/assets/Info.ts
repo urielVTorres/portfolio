@@ -82,3 +82,60 @@ export const ContactInfo : {linkedIn: string, phoneNumber: string, email: string
     email: "m.urielv.torres@gmail.com"
 }
 
+
+interface IProjectsInfo {
+    language: string,
+    projects: {
+        title: string,
+        description: string,
+        link: string,
+        github:string
+    }[]
+}
+
+export const ProjectsInfo : IProjectsInfo[] = [
+    {
+        language: "Español",
+        projects: [
+            {
+                title: "Projecto1",
+                description: "Esta es la descripción del primer projecto.",
+                link: "https://www.google.com",
+                github: "https://www.youtube.com"
+            },
+            {
+                title: "Projecto2",
+                description: "Esta es la descripción del segundo projecto.",
+                link: "https://www.google.com",
+                github: "https://www.youtube.com"
+            },{
+                title: "Projecto3",
+                description: "Esta es la descripción del tercer projecto.",
+                link: "https://www.google.com",
+                github: "https://www.youtube.com"
+            },
+        ]
+    },
+    {
+        language: "English",
+        projects: [
+            {
+                title: "Project1",
+                description: "Esta es la descripción del primer projecto.",
+                link: "https://www.google.com/",
+                github: "https://www.youtube.com"
+            },
+            {
+                title: "Project2",
+                description: "Esta es la descripción del segundo projecto.",
+                link: "https://www.google.com/",
+                github: "https://www.youtube.com"
+            },{
+                title: "Project3",
+                description: "Esta es la descripción del tercer projecto.",
+                link: "https://www.google.com/",
+                github: "https://www.youtube.com"
+            },
+        ]
+    }
+]

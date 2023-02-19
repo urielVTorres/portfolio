@@ -12,6 +12,7 @@
 
 <template>
     <div id="skills">
+        <h2>{{ props.language === "Español"? "Habilidades" : "Skills" }}</h2>
         <div id="certification">
             <div class="ability" v-for="ability in skills?.info">
                 <h3>{{ ability.title }}</h3>
@@ -41,4 +42,7 @@
 
 }
 
+#skills {
+    padding-top: 2rem;
+}
 </style>
