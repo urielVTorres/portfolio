@@ -89,7 +89,8 @@ interface IProjectsInfo {
         title: string,
         description: string,
         link: string,
-        github:string
+        github:string,
+        img: string
     }[]
 }
 
@@ -101,18 +102,21 @@ export const ProjectsInfo : IProjectsInfo[] = [
                 title: "Projecto1",
                 description: "Esta es la descripción del primer projecto.",
                 link: "https://www.google.com",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "https://www.egames.news/__export/1663699171805/sites/debate/img/2022/09/20/luffy-_crop1663699135465.jpg_1662697397.jpg"
             },
             {
                 title: "Projecto2",
                 description: "Esta es la descripción del segundo projecto.",
                 link: "https://www.google.com",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "./src/assets/Images/"
             },{
                 title: "Projecto3",
                 description: "Esta es la descripción del tercer projecto.",
                 link: "https://www.google.com",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "./src/assets/Images/"
             },
         ]
     },
@@ -123,18 +127,21 @@ export const ProjectsInfo : IProjectsInfo[] = [
                 title: "Project1",
                 description: "Esta es la descripción del primer projecto.",
                 link: "https://www.google.com/",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "./src/assets/Images/"
             },
             {
                 title: "Project2",
                 description: "Esta es la descripción del segundo projecto.",
                 link: "https://www.google.com/",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "./src/assets/Images/"
             },{
                 title: "Project3",
                 description: "Esta es la descripción del tercer projecto.",
                 link: "https://www.google.com/",
-                github: "https://www.youtube.com"
+                github: "https://www.youtube.com",
+                img: "./src/assets/Images/"
             },
         ]
     }
