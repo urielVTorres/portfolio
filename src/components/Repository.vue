@@ -16,9 +16,11 @@ const projectsInfo = ProjectsInfo.find( element => element.language === props.la
         <h2>{{ props.language === "Español" ? "Proyectos" : "Projects" }}</h2>
         <div id="container-projects">
             <article v-for="project in projectsInfo?.projects" class="project-card" :style="{ 'background-image': `url(${project.img})` }">
-                <div >
-                    <h3>{{ project.title }}</h3>
-                    <p>{{ project.description }}</p>
+                <div class="card-info" >
+                    <div class="desc">
+                        <h3>{{ project.title }}</h3>
+                        <p>{{ project.description }}</p>
+                    </div>
                     <div class="container-links">
                         <a :href="project.link" target="_black">{{props.language === "Español" ? "Ir al sitio" : "Go to website"}}</a>
                         <a :href="project.github" target="_black">{{props.language === "Español" ? "Ir al repositorio" : "Go to repo"}}</a>
@@ -44,10 +46,16 @@ const projectsInfo = ProjectsInfo.find( element => element.language === props.la
 }
 
 .project-card {
-    padding: 1rem;
-    background-color: aquamarine;
-    border-radius: 2rem 0.5rem;
+    border-radius: 0.5rem 0.5rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 13rem;
 }
+
+.desc {
+    overflow-y: auto;
+}
+
 
 .container-links {
     display: flex;
@@ -61,5 +69,22 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.card-info {
+    width: full;
+    height: 11rem;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem;
+    background-color: rgb(43, 43, 43, 0);
+    color:rgb(255, 255, 255, 0);
+    
+}
+
+.card-info:hover {
+    background-color: rgb(43, 43, 43, .7);
+    color:rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+}
+
 
 </style>
