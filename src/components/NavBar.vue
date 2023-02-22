@@ -24,13 +24,14 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 
 .contenedor-botones {
     min-width: calc(fit-content + 4rem);
     display: flex;
     gap:0.5em;
     padding-right: 1rem;
+    z-index: 100;
 }
 
 </style>

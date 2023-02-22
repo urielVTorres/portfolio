@@ -48,8 +48,7 @@ const projectsInfo = ProjectsInfo.find( element => element.language === props.la
 .project-card {
     border-radius: 0.5rem 0.5rem;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 13rem;
+    background-position-x: center;
 }
 
 .desc {
