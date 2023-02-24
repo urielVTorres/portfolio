@@ -20,7 +20,7 @@
 <template>
     <div class="contenedor-botones">
         <button v-for="item in navButtons?.buttons" :value="item.value" @click="handleScrollView">{{ item.text }}</button>
-        <a href="src\assets\Resume_Marco_Vargas.pdf" download="Resume_Uriel_Vargas.pdf" ><button >CV</button></a>
+        <a href="/Resume_Marco_Vargas.pdf" download="Resume_Uriel_Vargas.pdf" ><button >CV</button></a>
     </div>
 </template>
 
