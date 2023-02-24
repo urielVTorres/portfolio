@@ -20,7 +20,7 @@ export const AboutMeInfo : {language: string, greeting: string, about: string}[]
     {
         language: "English",
         greeting: "Hey! My name is Uriel Vargas.",
-        about: "Software engineer, enhancing myself for a better tomorrow. I think web is the platform of the future. Lover of science and programming lnguages. Hello World."
+        about: "Software engineer, enhancing myself for a better tomorrow. I think web is the platform of the future. Lover of science and programming languages. Hello World."
     }
 ]
 

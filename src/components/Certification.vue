@@ -27,12 +27,23 @@
 </template>
 
 <style scoped>
-
 #certification{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 30%) ;
     gap: 3%;
+}
+
+.ability {
+    border-radius: 2rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 0.3rem 1.5rem;
+    background-color: #222831;
+    color:#ffffff;
+}
+
+.ability p {
+    text-align: justify;
 }
 
 #technologies {
@@ -44,5 +55,10 @@
 
 #skills {
     padding-top: 2rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    color: #222831;
+    padding-bottom: 3rem;
 }
 </style>

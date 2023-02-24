@@ -47,5 +47,12 @@ header {
     padding: 0.5rem;
 }
 
+#main-container {
+    background-image: url(src/assets/Images/space-background.jpeg);
+    background-position-x: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 
 </style>
