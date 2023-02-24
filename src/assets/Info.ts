@@ -103,42 +103,42 @@ export const ProjectsInfo : IProjectsInfo[] = [
                 description: "Un administrador de ventas desarrollado con MERN stack y tailwind para un café internet-papelería.",
                 link: "https://interpaty-app.web.app/",
                 github: "https://github.com/urielVTorres/interpaty",
-                img: "src/assets/Images/interpaty.jpg"
+                img: "/Images/interpaty.jpg"
             },
             {
                 title: "Creador de horarios - ESCOM",
                 description: "Crea horarios de la carrera de ingeniería en sistemas computacionales de ESCOM automáticamente.",
                 link: "https://escom-horarios.web.app/",
                 github: "https://github.com/urielVTorres/schedule-maker",
-                img: "./src/assets/Images/schedule-maker.jpg"
+                img: "/Images/schedule-maker.jpg"
             },
             {
                 title: "Agencia de viajes",
                 description: "Página de agencia de viajes desarrollada para un curso de JS, usando node, express, axios, pug",
                 link: "https://escom-horarios.web.app/",
                 github: "https://github.com/urielVTorres/agenciadeViajesNode",
-                img: "./src/assets/Images/ajencia-viajes.jpg"
+                img: "/Images/ajencia-viajes.jpg"
             },
             {
                 title: "Cotizador de Prestamos",
                 description: "Página creada con VITE Vue.js, cotiza prestamos.",
                 link: "https://jade-dolphin-6d60af.netlify.app/",
                 github: "https://github.com/urielVTorres/cotizador-prestamos",
-                img: "./src/assets/Images/cotizador-prestamos.jpg"
+                img: "/Images/cotizador-prestamos.jpg"
             },
             {
                 title: "Buscador de Imagenes",
                 description: "Buscador de imagenes usando JS vanilla, CSS, HTML, FetchAPI",
                 link: "https://shiny-tanuki-169100.netlify.app/",
                 github: "#",
-                img: "./src/assets/Images/buscador-imagenes.jpg"
+                img: "/Images/buscador-imagenes.jpg"
             },
             {
                 title: "Administrador de pacientes de veterinaria",
                 description: "Agenda pacientes de veterinaria, autorización, signin y login usando JS vanilla, CSS, HTML, FetchAPI",
                 link: "https://glittering-gnome-ef56f6.netlify.app/",
                 github: "#",
-                img: "./src/assets/Images/admon-veterinaria.jpg"
+                img: "/Images/admon-veterinaria.jpg"
             }
         ]
     },
@@ -150,42 +150,42 @@ export const ProjectsInfo : IProjectsInfo[] = [
                 description: "Un administrador de ventas desarrollado con MERN stack y tailwind para un café internet-papelería.",
                 link: "https://interpaty-app.web.app/",
                 github: "https://github.com/urielVTorres/interpaty",
-                img: "src/assets/Images/interpaty.jpg"
+                img: "public/Images/interpaty.jpg"
             },
             {
                 title: "Creador de horarios - ESCOM",
                 description: "Crea horarios de la carrera de ingeniería en sistemas computacionales de ESCOM automáticamente.",
                 link: "https://escom-horarios.web.app/",
                 github: "https://github.com/urielVTorres/schedule-maker",
-                img: "./src/assets/Images/schedule-maker.jpg"
+                img: "/Images/schedule-maker.jpg"
             },
             {
                 title: "Agencia de viajes",
                 description: "Página de agencia de viajes desarrollada para un curso de JS, usando node, express, axios, pug",
                 link: "https://escom-horarios.web.app/",
                 github: "https://github.com/urielVTorres/agenciadeViajesNode",
-                img: "./src/assets/Images/ajencia-viajes.jpg"
+                img: "/Images/ajencia-viajes.jpg"
             },
             {
                 title: "Cotizador de Prestamos",
                 description: "Página creada con VITE Vue.js, cotiza prestamos.",
                 link: "https://jade-dolphin-6d60af.netlify.app/",
                 github: "https://github.com/urielVTorres/cotizador-prestamos",
-                img: "./src/assets/Images/cotizador-prestamos.jpg"
+                img: "/Images/cotizador-prestamos.jpg"
             },
             {
                 title: "Buscador de Imagenes",
                 description: "Buscador de imagenes usando JS vanilla, CSS, HTML, FetchAPI",
                 link: "https://shiny-tanuki-169100.netlify.app/",
                 github: "#",
-                img: "./src/assets/Images/buscador-imagenes.jpg"
+                img: "/Images/buscador-imagenes.jpg"
             },
             {
                 title: "Administrador de pacientes de veterinaria",
                 description: "Agenda pacientes de veterinaria, autorización, signin y login usando JS vanilla, CSS, HTML, FetchAPI",
                 link: "https://glittering-gnome-ef56f6.netlify.app/",
                 github: "#",
-                img: "./src/assets/Images/admon-veterinaria.jpg"
+                img: "/Images/admon-veterinaria.jpg"
             }
         ]
     }

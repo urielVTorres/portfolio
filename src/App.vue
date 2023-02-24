@@ -48,7 +48,7 @@ header {
 }
 
 #main-container {
-    background-image: url(src/assets/Images/space-background.jpeg);
+    background-image: url(/Images/space-background.jpeg);
     background-position-x: center;
     background-size: 100%;
     background-repeat: no-repeat;
